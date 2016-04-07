@@ -5,6 +5,7 @@ body {
   padding: 0px;
   font-family: 'Lato', sans-serif;
   margin-top: 60px;
+  overflow-x: hidden;
 }
 
 section {

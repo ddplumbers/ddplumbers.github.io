@@ -332,6 +332,16 @@ a.link {
   margin-top: 20px;
 }
 
+@media screen and (max-height: 600px) {
+  .header-image {
+    height: 400px;
+  }
+
+  .header-image h1 {
+    font-size: 28px;
+  }
+}
+
 @media screen and (max-width:600px) {
   .header-image .container {
     top: 25%;

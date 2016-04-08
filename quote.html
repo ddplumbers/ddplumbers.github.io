@@ -91,11 +91,11 @@
               </p>
 
               <form class="form--quote" action="https://formspree.io/hello@taylorrees.co" method="POST">
-                <label>Name</label>
-                <input type="text" name="name">
-                <label>Email</label>
+                <label>*Name</label>
+                <input required type="text" name="name">
+                <label>*Email</label>
                 <input type="email" name="email">
-                <label>Phone</label>
+                <label required>Phone</label>
                 <input type="tel" name="phone">
                 <label>Job Category</label>
                 <select name="category">
@@ -105,12 +105,12 @@
                 </select>
                 <label>Job Location</label>
                 <input type="text" name="location">
-                <label>Job Description</label>
-                <textarea name="description"></textarea>
+                <label>*Job Description</label>
+                <textarea required name="description"></textarea>
                 <div>
                   <button type="submit" class="button">Submit Request</button>
                 </div>
-                <input style="display:none" type="hidden" name="_next" value="/thanks.html" />
+                <input style="display:none" type="hidden" name="_next" value="/thanks" />
                 <input style="display:none" type="hidden" name="_subject" value="New Quotation Request" />
                 <input type="text" name="_gotcha" style="display:none" />
               </form>

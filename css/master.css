@@ -462,7 +462,23 @@ a.link {
 
   .bullet-container span,
   .bullet-container div {
+    border: 0px;
+  }
+
+  .bullet-container h3,
+  .bullet-container h4,
+  .bullet-container p {
     display: none;
+  }
+
+  .bullet-container img {
+    display: block;
+    width: 35px;
+    height: 35px;
+    left: 0%;
+    right: 0%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 }

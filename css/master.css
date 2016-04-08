@@ -323,6 +323,8 @@ a.link {
   font-weight: 400;
   color: rgba(255, 255, 255, 1);
   background: rgba(255, 165, 0, 1);
+  border: none;
+  outline: none;
   border-radius: 30px;
   opacity: 0.9;
   padding: 14px 18px;
@@ -702,6 +704,45 @@ a.link {
 .contact-text {
   border-top: 1px solid rgba(0,0,0,0.05);
   padding-top: 20px;
+}
+
+/* Quotation */
+
+.form--quote {
+  margin: 0px auto;
+  margin-top: 60px;
+  padding: 0px;
+}
+
+.form--quote label {
+  text-transform: uppercase;
+  font-size: 10px;
+  color: rgba(0,0,0,0.6);
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.8px;
+  font-weight: 600;
+}
+
+.form--quote input,
+.form--quote textarea,
+.form--quote select {
+  display: block;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  padding: 10px;
+  outline: none;
+  background: none;
+  margin: 20px 0px;
+  width: 100%;
+  border: 1px solid rgba(0,0,0,0.1);
+  line-height: 26px;
+  letter-spacing: 0.4px;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.form--quote .button {
+  margin-top: 40px;
 }
 
 /* Site Footer */

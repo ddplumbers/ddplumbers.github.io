@@ -782,6 +782,12 @@ a.link {
   display: table-cell !important;
 }
 
+.site-footer .bullet-container h3,
+.site-footer .bullet-container h4,
+.site-footer .bullet-container p {
+  display: block;
+}
+
 .site-footer span {
   border: none;
   text-align: center;

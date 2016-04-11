@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="content">
+        {{ content }}
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+  <script type="text/javascript" src="js/smooth-scroll.min.js"></script>
+  <script type="text/javascript" src="js/core.js"></script>
+  <script>
+    smoothScroll.init({
+      updateURL: false
+    });
+  </script>
+
+</html>

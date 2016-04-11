@@ -1,0 +1,20 @@
+# This config file is meant for settings that affect your whole site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: DD Plumbers
+email: darren@ddplumbers.co.uk
+description: >
+  Located in Llanelli, South Wales DD Plumbers provide plumbing,
+  heating and gas solutions to Llanelli, Swansea, Carmarthen and
+  the surrounding areas. Emergency plumbing services available 24
+  hours a day, 365 days a year; we provide plumbers and gas engineers
+  all across Carmarthenshire.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://ddplumbers.com" # the base hostname & protocol for your site
+twitter_username: ddplumbers
+
+# Build settings
+markdown: kramdown

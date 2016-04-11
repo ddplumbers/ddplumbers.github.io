@@ -777,6 +777,7 @@ a.link {
   border: 0px;
 }
 
+.site-footer .bullet-container div,
 .site-footer .bullet-container span {
   padding-left: 25px;
   padding-right: 25px;
@@ -789,6 +790,7 @@ a.link {
   display: block;
 }
 
+.site-footer div,
 .site-footer span {
   border: none;
   text-align: center;

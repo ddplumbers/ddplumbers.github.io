@@ -861,6 +861,10 @@ a.link {
 
 @media screen and (max-width: 400px) {
 
+  .company-logos .logo-container {
+    margin: 30px 10px;
+  }
+
   .company-logos .logo-row {
     width: 1170px;
   }

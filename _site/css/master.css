@@ -821,6 +821,7 @@ a.link {
   margin: 30px 40px;
   margin-bottom: 40px;
   overflow-x: scroll;
+  text-align: left;
 }
 
 .company-logos .logo-row {
@@ -856,6 +857,17 @@ a.link {
 
 .company-logos .button {
   margin-top: 40px;
+}
+
+@media screen and (max-width: 400px) {
+
+  .company-logos .logo-row {
+    width: 1170px;
+  }
+
+  .company-logos .logo-cell {
+    padding-right: 20px;
+  }
 }
 
 /* Site Footer */

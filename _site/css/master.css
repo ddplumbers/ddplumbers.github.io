@@ -4,7 +4,7 @@ body {
   margin: 0px auto;
   padding: 0px;
   font-family: 'Lato', sans-serif;
-  margin-top: 60px;
+  margin-top: 66px;
 }
 
 section {
@@ -76,7 +76,7 @@ a.link {
   background: rgb(255, 255, 255);
   z-index: 999;
   position: fixed;
-  top: 0;
+  top: 0px;
   left: 0;
   transition: 0.3s all;
 }
@@ -158,6 +158,34 @@ a.link {
   display: none;
 }
 
+.header-contact {
+  width: 100%;
+  display: block;
+  text-align: center;
+  z-index: 9999;
+  background: rgba(0,0,255,0.7);
+  padding: 0px;
+  margin: 0px;
+}
+
+.header-contact a {
+  display: inline-block;
+  margin: 18px 5%;
+  padding: 3px 0px;
+  font-size: 12px;
+  color: rgba(255,255,255,1);
+  letter-spacing: 0.6px;
+  border-bottom: 1px solid transparent;
+}
+
+.header-contact a:hover {
+  border-bottom: 1px solid rgba(255,255,255,0.8);
+}
+
+.header-contact .fa {
+  margin-right: 4px;
+}
+
 @media screen and (max-width:600px) {
 
   .responsive-nav {
@@ -170,6 +198,7 @@ a.link {
     left: 0;
     z-index: 999;
     border-bottom: 1px solid #dddddd;
+    padding: 3px 0px;
   }
 
   #close-menu-button {
@@ -206,6 +235,21 @@ a.link {
 
   .list--site-navigation li {
     display: block;
+  }
+
+  .header-contact {
+    padding: 10px 0px;
+    text-align: left;
+  }
+
+  .header-contact a {
+    display: block;
+    padding: 0px;
+    margin: 12px 40px;
+  }
+
+  .header-contact a:hover {
+    border-color: transparent;
   }
 
 }
@@ -760,6 +804,57 @@ a.link {
 }
 
 .form--quote .button {
+  margin-top: 40px;
+}
+
+/* Company Logos */
+
+.company-logos {
+  display: block;
+  width: 100%;
+  border: 1px solid rgba(0,0,0,0.1);
+  padding: 40px 0px;
+  text-align: center;
+}
+
+.company-logos .logo-container {
+  margin: 30px 40px;
+  margin-bottom: 40px;
+  overflow-x: scroll;
+}
+
+.company-logos .logo-row {
+  width: 1310px;
+}
+
+.company-logos .logo-row::-webkit-scrollbar {
+  display: none;
+}
+
+.company-logos .title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  letter-spacing: 1.0px;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+}
+
+.company-logos .logo-cell {
+  width: 120px;
+  max-width: 120px;
+  display: inline-block;
+  padding: 20px 0px;
+  padding-right: 40px;
+  padding-left: 0px;
+}
+
+.company-logos img {
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.company-logos .button {
   margin-top: 40px;
 }
 

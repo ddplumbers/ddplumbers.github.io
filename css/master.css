@@ -46,6 +46,14 @@ a.link {
   font-weight: 400;
 }
 
+hr {
+  border: 0px;
+  border-bottom: 1px solid rgba(0,0,0,0.08) !important;
+  background: none;
+  outline: none;
+  box-shadow: none;
+}
+
 /* Site Navigation */
 
 .logo,
@@ -432,6 +440,10 @@ a.link {
   text-align: left;
 }
 
+.small-text {
+  font-size: 12px;
+}
+
 /* Image */
 .full-width-image {
   width: 100%;
@@ -503,6 +515,10 @@ a.link {
   z-index: -9;
 }
 
+.payment-container.bullet-container div:first-of-type {
+  border-left: 1px solid rgba(0,0,0,0.05);
+}
+
 @media screen and (max-width:800px) {
 
   .bullet-container span,
@@ -514,6 +530,18 @@ a.link {
   .bullet-container h4,
   .bullet-container p {
     display: none;
+  }
+
+  .payment-container.bullet-container div,
+  .payment-container.bullet-container h3,
+  .payment-container.bullet-container h4,
+  .payment-container.bullet-container p {
+    display: block;
+  }
+
+  .payment-container.bullet-container div {
+    border: 0px !important;
+    width: 100%;
   }
 
   .bullet-container img {
@@ -826,7 +854,7 @@ a.link {
 }
 
 .company-logos .logo-row {
-  width: 1310px;
+  width: 1650px;
 }
 
 .company-logos .logo-row::-webkit-scrollbar {
@@ -934,7 +962,18 @@ a.link {
   color: rgba(255, 255, 255, 0.6);
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:800px) {
+  .site-footer div {
+    width: auto !important;
+  }
+
+  .contact-details {
+    margin-top: 60px;
+  }
+
+}
+
+@media screen and (max-width:600px) {
   .site-footer a {
     font-size: 11px;
   }
@@ -946,13 +985,15 @@ a.link {
   }
 }
 
-@media screen and (max-width:800px) {
-  .site-footer div {
-    width: auto !important;
+@media screen and (max-width:500px) {
+
+  .site-footer .bullet-container {
+    text-align: center;
   }
 
-  .contact-details {
-    margin-top: 60px;
+  .site-footer .bullet-container div,
+  .site-footer .bullet-container span {
+    display: block !important;
+    width: 100% !important;
   }
-
 }

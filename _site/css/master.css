@@ -909,6 +909,7 @@ hr {
   margin-top: 80px;
   background: rgba(255,165,0,0.8);
   color: rgba(255, 255, 255, 1);
+  width: 100%;
 }
 
 .site-footer .bullet-container {
@@ -963,9 +964,6 @@ hr {
 }
 
 @media screen and (max-width:800px) {
-  .site-footer div {
-    width: auto !important;
-  }
 
   .contact-details {
     margin-top: 60px;
@@ -987,13 +985,9 @@ hr {
 
 @media screen and (max-width:500px) {
 
-  .site-footer .bullet-container {
-    text-align: center;
-  }
-
   .site-footer .bullet-container div,
   .site-footer .bullet-container span {
     display: block !important;
-    width: 100% !important;
+    margin: 0px auto;
   }
 }

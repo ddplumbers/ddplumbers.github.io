@@ -171,7 +171,7 @@ hr {
   display: block;
   text-align: center;
   z-index: 9999;
-  background: rgba(0,0,255,0.7);
+  background: #fff;
   padding: 0px;
   margin: 0px;
 }
@@ -180,8 +180,8 @@ hr {
   display: inline-block;
   margin: 18px 5%;
   padding: 3px 0px;
-  font-size: 12px;
-  color: rgba(255,255,255,1);
+  font-size: 13px;
+  color: rgba(0,0,255,0.7);
   letter-spacing: 0.6px;
   border-bottom: 1px solid transparent;
 }
@@ -192,6 +192,7 @@ hr {
 
 .header-contact .fa {
   margin-right: 4px;
+  color: rgb(255,165,0);
 }
 
 @media screen and (max-width:600px) {
